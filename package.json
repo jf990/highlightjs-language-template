@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "author": "John Foster",
   "description": "A new language template set up when creating a language definition for highlightjs",
-  "main": "language.js",
+  "main": "src/languages/language.js",
   "scripts": {
     "test": "jasmine"
   },
   "files": [
-    "language.js"
+    "src/languages/language.js"
   ],
   "repository": {
     "type": "git",
@@ -16,17 +16,19 @@
   },
   "keywords": [
     "javascript",
+    "highlight",
     "highlight.js",
     "highlightjs",
-    "syntax"
+    "syntax",
+    "template"
   ],
-  "license": "Apache-2.0",
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/jf990/highlightjs-language-template/issues"
   },
-  "homepage": "https://github.com/jf990/highlightjs-language-template#readme",
+  "homepage": "https://github.com/jf990/highlightjs-language-template",
   "devDependencies": {
-    "highlight.js": "^9.15.10",
-    "jasmine": "^3.4.0"
+    "highlight.js": "^10.6.0",
+    "jasmine": "^3.6.4"
   }
 }
