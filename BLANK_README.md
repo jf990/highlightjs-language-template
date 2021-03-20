@@ -60,8 +60,8 @@ Contributions are what make the open source community such an amazing place to b
 1. Fork this project.
 2. Create a work branch (`git checkout -b my-branch`).
 3. Commit your changes (`git commit -m 'my changes'`).
-4. Push the branch (`git push origin fmy-branch`).
-5. Open a Pull Request fron your fork back to this repository.
+4. Push the branch (`git push origin my-branch`).
+5. Open a Pull Request from your fork back to this repository.
 
 ## Links
 
