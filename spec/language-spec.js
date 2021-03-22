@@ -7,6 +7,8 @@ const hljs = require("highlight.js/lib/core");
 const language = require("../src/languages/language");
 const fs = require("fs");
 const path = require("path");
+const testFileSourcePath = "../test/markup/language/sample.txt";
+const testFileExpectedPath = "../test/markup/language/sample.expect.txt";
 hljs.registerLanguage("language", language);
 
 describe("highlight language", () => {
@@ -31,7 +33,7 @@ describe("highlight language", () => {
 
     // read the test data
     const input = fs.readFileSync(
-      path.resolve(__dirname, "./sample.txt"),
+      path.resolve(__dirname, testFileSourcePath),
       "utf-8"
     );
 
@@ -43,7 +45,7 @@ describe("highlight language", () => {
 
     // verify the highlighting is what is expected
     const expected = fs.readFileSync(
-      path.resolve(__dirname, "./expected.txt"),
+      path.resolve(__dirname, testFileExpectedPath),
       "utf-8"
     );
     expect(result).toBe(expected);
