@@ -1,8 +1,8 @@
 /*
- Language: Language
+ Language: your-language
  Category: scripting
  Author: author <author@website.com>
- Description: This is a placeholder language to be replaced by your language. Tell us what your language is all about.
+ Description: This is a placeholder language to be replaced by your-language. Tell us what your-language is all about.
 */
 module.exports = function (hljs) {
   var KEYWORDS = {
@@ -24,8 +24,8 @@ module.exports = function (hljs) {
   };
   
   return {
-    name: "language",
-    aliases: ["lang"],
+    name: "your-language",
+    aliases: ["your-lang"],
     keywords: KEYWORDS,
     case_insensitive: true,
     contains: [

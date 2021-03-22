@@ -1,7 +1,7 @@
 # project-name
 
-Describe your language.
-Link to [language grammar description](https://official.language.com).
+Describe your-language.
+Link to [your-language grammar description](https://official.language.com).
 
 **Built with**
 

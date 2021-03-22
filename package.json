@@ -1,20 +1,21 @@
 {
-  "name": "highlightjs-language",
+  "name": "highlightjs-your-language",
   "version": "0.1.0",
   "author": "John Foster",
   "description": "A new language template set up when creating a language definition for highlightjs",
-  "main": "src/languages/language.js",
+  "main": "src/languages/your-language.js",
   "scripts": {
     "test": "jasmine"
   },
   "files": [
-    "src/languages/language.js"
+    "src/languages/your-language.js"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jf990/highlightjs-language-template.git"
   },
   "keywords": [
+    "your-language",
     "javascript",
     "highlight",
     "highlight.js",

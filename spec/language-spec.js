@@ -4,18 +4,18 @@
  * the tests and test data for your language requirements.
  */
 const hljs = require("highlight.js/lib/core");
-const language = require("../src/languages/language");
+const language = require("../src/languages/your-language");
 const fs = require("fs");
 const path = require("path");
-const testFileSourcePath = "../test/markup/language/sample.txt";
-const testFileExpectedPath = "../test/markup/language/sample.expect.txt";
-hljs.registerLanguage("language", language);
+const testFileSourcePath = "../test/markup/your-language/sample.txt";
+const testFileExpectedPath = "../test/markup/your-language/sample.expect.txt";
+hljs.registerLanguage("your-language", language);
 
 describe("highlight language", () => {
-  it("defines language", () => {
+  it("defines your-language", () => {
 
     // highlight has language defined
-    const language = hljs.getLanguage("language");
+    const language = hljs.getLanguage("your-language");
     expect(language).toBeDefined();
   });
 
@@ -23,9 +23,9 @@ describe("highlight language", () => {
     const string = "assign false builtin";
     const expected = '<span class="hljs-keyword">assign</span> <span class="hljs-literal">false</span> <span class="hljs-built_in">builtin</span>';
     const { value: result, language } = hljs.highlightAuto(string, [
-      "language",
+      "your-language",
     ]);
-    expect(language).toBe("language");
+    expect(language).toBe("your-language");
     expect(result).toBe(expected);
   });
 
@@ -39,9 +39,9 @@ describe("highlight language", () => {
 
     // highlight the test data
     const { value: result, language } = hljs.highlightAuto(input, [
-      "language",
+      "your-language",
     ]);
-    expect(language).toBe("language");
+    expect(language).toBe("your-language");
 
     // verify the highlighting is what is expected
     const expected = fs.readFileSync(

@@ -1,4 +1,4 @@
-/* Highlight.js test <span class="hljs-keyword">for</span> some new language */
+/* Highlight.js test <span class="hljs-keyword">for</span> some new your-language */
 
 <span class="hljs-keyword">function</span> myFunction(parameter) {
     <span class="hljs-keyword">assign</span> var = <span class="hljs-number">1234</span> + <span class="hljs-built_in">otherbuiltin</span>(<span class="hljs-literal">void</span>)
