@@ -28,6 +28,7 @@ module.exports = function (hljs) {
     aliases: ["your-lang"],
     keywords: KEYWORDS,
     case_insensitive: true,
+    disableAutodetect: true,
     contains: [
       hljs.APOS_STRING_MODE,
       hljs.QUOTE_STRING_MODE,
