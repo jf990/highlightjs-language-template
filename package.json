@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/jf990/highlightjs-language-template",
   "devDependencies": {
-    "highlight.js": "^10.6.0",
-    "jasmine": "^3.6.4"
+    "highlight.js": "^10.7.1",
+    "jasmine": "^3.7.0"
   }
 }

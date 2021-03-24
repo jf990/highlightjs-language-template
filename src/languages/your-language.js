@@ -22,13 +22,13 @@ module.exports = function (hljs) {
     ],
     relevance: 0
   };
-  
+
   return {
     name: "your-language",
     aliases: ["your-lang"],
     keywords: KEYWORDS,
     case_insensitive: true,
-    disableAutodetect: true,
+    disableAutodetect: false,
     contains: [
       hljs.APOS_STRING_MODE,
       hljs.QUOTE_STRING_MODE,
