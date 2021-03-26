@@ -44,7 +44,7 @@ var hljs = require('highlight.js');
 var hljsYourLanguage = require('highlightjs-your-language');
 
 hljs.registerLanguage("your-language", hljsYourLanguage);
-hljs.initHighlightingOnLoad();
+hljs.highlightAll();
 ```
 
 ## License
